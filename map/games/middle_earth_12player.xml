@@ -867,7 +867,7 @@
       <result resourceOrUnit="hobbits" quantity="1"/>
     </productionRule>
     <productionRule name="buyHunters">
-      <cost resource="PUs" quantity="4"/>
+      <cost resource="PUs" quantity="5"/>
       <result resourceOrUnit="hunters" quantity="1"/>
     </productionRule>
     <productionRule name="buyWizard">
@@ -990,10 +990,6 @@
       <cost resource="PUs" quantity="6"/>
       <result resourceOrUnit="longship" quantity="1"/>
     </productionRule>
-    <!--<productionRule name="buyPeasants">
-                        <cost resource="PUs" quantity="3" />
-                        <result resourceOrUnit="peasants" quantity="1"/>
-                </productionRule>-->
     <productionRule name="buyRaiders">
       <cost resource="PUs" quantity="4"/>
       <result resourceOrUnit="raiders" quantity="1"/>
@@ -1023,7 +1019,7 @@
       <result resourceOrUnit="warWagon" quantity="1"/>
     </productionRule>
     <productionRule name="buyEnts">
-      <cost resource="PUs" quantity="5"/>
+      <cost resource="PUs" quantity="6"/>
       <result resourceOrUnit="ents" quantity="1"/>
     </productionRule>
     <productionRule name="buyUndead">
@@ -1257,7 +1253,7 @@
     <attachment name="unitAttachment" attachTo="chariotArchers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
-      <option name="attack" value="2"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="artillery" value="true"/>
@@ -1344,13 +1340,6 @@
       <option name="defense" value="1"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
-    <!--<attachment name="unitAttachment" attachTo="peasants" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="1"/>
-                         <option name="transportCost" value="1"/>
-                         <option name="attack" value="0"/>
-                         <option name="defense" value="2"/>
-                         <option name="artillerySupportable" value="true"/>
-                    </attachment>-->
     <attachment name="unitAttachment" attachTo="hunters" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="1"/>
@@ -1453,7 +1442,7 @@
       <option name="movement" value="1"/>
       <option name="transportCost" value="1"/>
       <option name="attack" value="1"/>
-      <option name="defense" value="1"/>
+      <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="urukhai" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1475,7 +1464,7 @@
     <attachment name="unitAttachment" attachTo="siegeTower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
-      <option name="attack" value="2"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="1"/>
       <option name="artillery" value="true"/>
     </attachment>
@@ -2099,7 +2088,7 @@
       <unitPlacement unitType="tower" territory="Rivendell" quantity="2" owner="Elves"/>
       <unitPlacement unitType="fortifications" territory="Rivendell" quantity="12" owner="Elves"/>
       <unitPlacement unitType="hunters" territory="Rivendell" quantity="6" owner="Elves"/>
-      <unitPlacement unitType="wizard" territory="Rivendell" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="wizard" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="hobbits" territory="Rivendell" quantity="1" owner="Elves"/>
       <unitPlacement unitType="castle" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="tower" territory="High Mirkwood" quantity="1" owner="Elves"/>
@@ -2111,16 +2100,16 @@
       <unitPlacement unitType="wizard" territory="Lorien" quantity="2" owner="Elves"/>
       <unitPlacement unitType="eagles" territory="Lorien" quantity="2" owner="Elves"/>
       <unitPlacement unitType="tower" territory="Lorien" quantity="3" owner="Elves"/>
-      <unitPlacement unitType="ents" territory="Fangorn" quantity="8" owner="Elves"/>
+      <unitPlacement unitType="ents" territory="Fangorn" quantity="2" owner="Elves"/>
       <unitPlacement unitType="ents" territory="E. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="W. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="N. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="ents" territory="High Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="eagles" territory="W. Mirkwood" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="hunters" territory="N. Mirkwood" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="N. Mirkwood" quantity="1" owner="Elves"/>
       <unitPlacement unitType="eagles" territory="E. Mirkwood" quantity="1" owner="Elves"/>
-      <unitPlacement unitType="ents" territory="S. Mirkwood" quantity="2" owner="Elves"/>
-      <unitPlacement unitType="hunters" territory="S. Mirkwood" quantity="2" owner="Elves"/>
+      <unitPlacement unitType="ents" territory="S. Mirkwood" quantity="1" owner="Elves"/>
+      <unitPlacement unitType="hunters" territory="S. Mirkwood" quantity="1" owner="Elves"/>
       <!-- Gondor Lands -->
       <unitPlacement unitType="castle" territory="Minas Tirith" quantity="1" owner="Gondor"/>
       <unitPlacement unitType="tower" territory="Minas Tirith" quantity="4" owner="Gondor"/>
